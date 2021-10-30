@@ -16,6 +16,8 @@
 		3CF21200272C947C00D6C1D6 /* MoneyManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF211FF272C947C00D6C1D6 /* MoneyManagerTests.swift */; };
 		3CF2120A272C947C00D6C1D6 /* MoneyManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF21209272C947C00D6C1D6 /* MoneyManagerUITests.swift */; };
 		3CF2120C272C947C00D6C1D6 /* MoneyManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2120B272C947C00D6C1D6 /* MoneyManagerUITestsLaunchTests.swift */; };
+		3CF21219272DE11B00D6C1D6 /* pie.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF21218272DE11B00D6C1D6 /* pie.png */; };
+		3CF2121B272DE56200D6C1D6 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 3CF2121A272DE56200D6C1D6 /* AppIcon.appiconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3CF21205272C947C00D6C1D6 /* MoneyManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF21209272C947C00D6C1D6 /* MoneyManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyManagerUITests.swift; sourceTree = "<group>"; };
 		3CF2120B272C947C00D6C1D6 /* MoneyManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CF21218272DE11B00D6C1D6 /* pie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pie.png; path = ../../../../../../../../Downloads/pie.png; sourceTree = "<group>"; };
+		3CF2121A272DE56200D6C1D6 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = "../../../../../../../../Downloads/AppIcons-5/Assets.xcassets/AppIcon.appiconset"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				3CF211EC272C947800D6C1D6 /* ViewController.swift */,
 				3CF211EE272C947800D6C1D6 /* Main.storyboard */,
 				3CF211F1272C947C00D6C1D6 /* Assets.xcassets */,
+				3CF2121A272DE56200D6C1D6 /* AppIcon.appiconset */,
+				3CF21218272DE11B00D6C1D6 /* pie.png */,
 				3CF211F3272C947C00D6C1D6 /* LaunchScreen.storyboard */,
 				3CF211F6272C947C00D6C1D6 /* Info.plist */,
 			);
@@ -231,8 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF21219272DE11B00D6C1D6 /* pie.png in Resources */,
 				3CF211F5272C947C00D6C1D6 /* LaunchScreen.storyboard in Resources */,
 				3CF211F2272C947C00D6C1D6 /* Assets.xcassets in Resources */,
+				3CF2121B272DE56200D6C1D6 /* AppIcon.appiconset in Resources */,
 				3CF211F0272C947800D6C1D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
